@@ -3,9 +3,9 @@
 ## Kontributor
 
 - Mohammad Fajar (1917051014) - nandafajar2019
-- Gladie Thoriqudin (1917051047) - Alehabsyi
+- Gladie Thoriqudin (1917051047) - ADI_GT47
 - Siever Geoffrey Kalele (1917051064) - razerook
-- Ale Habsyi Arwendi (1917051067) - ADI_GT47
+- Ale Habsyi Arwendi (1917051067) - Alehabsyi
 - Tegar Jayanaga (1917051071) - TegarJayanaga
 
 ## Dibuat dengan framework
