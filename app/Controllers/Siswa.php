@@ -95,8 +95,10 @@ class Siswa extends BaseController
         $data = [
             'siswa' => $siswa,
             'title' => 'Laporan',
-            // 'sudah' => $this->SiswaModel->where('status', 'Sudah Bayar')->countResultAll(),
-            // 'jumlah' => $this->SiswaModel->get()->getNumRows()
+            'sudah' => $this->SiswaModel->where('status', 'Sudah Bayar')->findAll(),
+            'jumlah' => $this->SiswaModel->findAll(),
+            'cicil' => $this->SiswaModel->where('status', 'Cicil')->findAll(),
+            'belum' => $this->SiswaModel->where('status', 'Belum Bayar')->findAll(),
         ];
         return view('layout/v_laporan', $data);
     }
